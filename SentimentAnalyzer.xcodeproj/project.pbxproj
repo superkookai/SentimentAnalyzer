@@ -6,17 +6,30 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EF7BEEB02EA3354700DF2F7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7BEEAC2EA3354700DF2F7A /* Assets.xcassets */; };
+		EF7BEEB12EA3354700DF2F7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7BEEAD2EA3354700DF2F7A /* ContentView.swift */; };
+		EF7BEEB22EA3354700DF2F7A /* SentimentAnalyzerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7BEEAE2EA3354700DF2F7A /* SentimentAnalyzerApp.swift */; };
+		EF7BEEB62EA3359B00DF2F7A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7BEEB52EA3359B00DF2F7A /* Response.swift */; };
+		EF7BEEB82EA3375D00DF2F7A /* Sentiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7BEEB72EA3375D00DF2F7A /* Sentiment.swift */; };
+		EF7BEEBA2EA3395B00DF2F7A /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7BEEB92EA3395B00DF2F7A /* Score.swift */; };
+		EF7BEEBC2EA33EFE00DF2F7A /* ResponseRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7BEEBB2EA33EFE00DF2F7A /* ResponseRowView.swift */; };
+		EF7BEEBE2EA3477800DF2F7A /* ResponsePieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7BEEBD2EA3477800DF2F7A /* ResponsePieChartView.swift */; };
+		EF7BEEC02EA34E4500DF2F7A /* OverallSentimentSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7BEEBF2EA34E4500DF2F7A /* OverallSentimentSection.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EF7BEE9E2EA3352D00DF2F7A /* SentimentAnalyzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SentimentAnalyzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7BEEAC2EA3354700DF2F7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF7BEEAD2EA3354700DF2F7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF7BEEAE2EA3354700DF2F7A /* SentimentAnalyzerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentAnalyzerApp.swift; sourceTree = "<group>"; };
+		EF7BEEB52EA3359B00DF2F7A /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		EF7BEEB72EA3375D00DF2F7A /* Sentiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sentiment.swift; sourceTree = "<group>"; };
+		EF7BEEB92EA3395B00DF2F7A /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		EF7BEEBB2EA33EFE00DF2F7A /* ResponseRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseRowView.swift; sourceTree = "<group>"; };
+		EF7BEEBD2EA3477800DF2F7A /* ResponsePieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsePieChartView.swift; sourceTree = "<group>"; };
+		EF7BEEBF2EA34E4500DF2F7A /* OverallSentimentSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverallSentimentSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		EF7BEEA02EA3352D00DF2F7A /* SentimentAnalyzer */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SentimentAnalyzer;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EF7BEE9B2EA3352D00DF2F7A /* Frameworks */ = {
@@ -32,7 +45,7 @@
 		EF7BEE952EA3352D00DF2F7A = {
 			isa = PBXGroup;
 			children = (
-				EF7BEEA02EA3352D00DF2F7A /* SentimentAnalyzer */,
+				EF7BEEAF2EA3354700DF2F7A /* SentimentAnalyzer */,
 				EF7BEE9F2EA3352D00DF2F7A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +56,38 @@
 				EF7BEE9E2EA3352D00DF2F7A /* SentimentAnalyzer.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EF7BEEAF2EA3354700DF2F7A /* SentimentAnalyzer */ = {
+			isa = PBXGroup;
+			children = (
+				EF7BEEB42EA3355D00DF2F7A /* Views */,
+				EF7BEEB32EA3354D00DF2F7A /* Model */,
+				EF7BEEAC2EA3354700DF2F7A /* Assets.xcassets */,
+				EF7BEEAD2EA3354700DF2F7A /* ContentView.swift */,
+				EF7BEEAE2EA3354700DF2F7A /* SentimentAnalyzerApp.swift */,
+			);
+			path = SentimentAnalyzer;
+			sourceTree = "<group>";
+		};
+		EF7BEEB32EA3354D00DF2F7A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF7BEEB52EA3359B00DF2F7A /* Response.swift */,
+				EF7BEEB72EA3375D00DF2F7A /* Sentiment.swift */,
+				EF7BEEB92EA3395B00DF2F7A /* Score.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF7BEEB42EA3355D00DF2F7A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF7BEEBB2EA33EFE00DF2F7A /* ResponseRowView.swift */,
+				EF7BEEBD2EA3477800DF2F7A /* ResponsePieChartView.swift */,
+				EF7BEEBF2EA34E4500DF2F7A /* OverallSentimentSection.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +104,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				EF7BEEA02EA3352D00DF2F7A /* SentimentAnalyzer */,
 			);
 			name = SentimentAnalyzer;
 			packageProductDependencies = (
@@ -109,6 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF7BEEB02EA3354700DF2F7A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +162,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF7BEEB12EA3354700DF2F7A /* ContentView.swift in Sources */,
+				EF7BEEC02EA34E4500DF2F7A /* OverallSentimentSection.swift in Sources */,
+				EF7BEEB82EA3375D00DF2F7A /* Sentiment.swift in Sources */,
+				EF7BEEB62EA3359B00DF2F7A /* Response.swift in Sources */,
+				EF7BEEB22EA3354700DF2F7A /* SentimentAnalyzerApp.swift in Sources */,
+				EF7BEEBC2EA33EFE00DF2F7A /* ResponseRowView.swift in Sources */,
+				EF7BEEBA2EA3395B00DF2F7A /* Score.swift in Sources */,
+				EF7BEEBE2EA3477800DF2F7A /* ResponsePieChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
